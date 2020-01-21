@@ -15,14 +15,18 @@ nav {
     margin-right: auto;
 }
 
+.valikko 
+{
+    position: relative;
+    display: inline-block;
+}
 
 .nappi {
     width: 60px; 
     background: no-repeat; 
     padding: 5px;
-   position: relative;
    margin-right: 10px;
-   float: right;
+   text-align: right;
 }
 
 
