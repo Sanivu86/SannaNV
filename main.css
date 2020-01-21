@@ -8,6 +8,12 @@ nav {
     background-color: coral;
 }
 
+.keskita {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .nappi {
     width: 60px; 
