@@ -1,6 +1,18 @@
 
 body {
     background-color: rgb(241, 176, 97);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+    color: rgb(241, 69, 7);
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav {
@@ -22,13 +34,16 @@ nav {
 }
 
 .nappi {
+
     width: 60px; 
     background: no-repeat; 
     padding: 5px;
-   margin-right: 10px;
-   text-align: right;
 }
 
+button:hover
+{
+    background-color: rgb(252, 112, 61);
+}
 
 ul {
   
@@ -39,15 +54,18 @@ ul {
 ul li {
    
     display: block;
-
+    padding: 10px;
+    background-color: coral;
 }
 
 ul li a
 {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
+
+  
  
 }
 ul li a:hover
