@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="main.css">
     
     
+    
     <title>
         Sanna's page
     </title>
@@ -16,16 +17,44 @@
 <body>
 
 <header>
- <h1 style="color: coral; width: fit-content; text-align: center;"> Tervetuloa!</h1>
+ <h1 style="color: coral; text-align: center;"> Tervetuloa!</h1>
 </header>
 
 <nav>
-<ul>
-    <li> <a href="#">Koti</a></li>
-    <li> <a href="https://sanivu86.github.io/SannaNV/cv">Cv</a></li>
-    <li> <a href="#">Tietoja minusta</a></li>
-    <li> <a href="#">Projekteja</a></li>
-</ul>
+
+    
+        <div class="valikko";>
+            <button onclick="nayta()" class="nappi">
+    
+                <img src="images/button.png" alt="logo" width="90%">
+             
+    
+               </button>
+               <div style= "display: none;" id="drop-content">
+                <ul>
+                    <li> <a href="https://sanivu86.github.io/SannaNV/">Koti</a> </li>
+                    <li> <a href="https://sanivu86.github.io/SannaNV/cv">Cv</a> </li>
+                    <li> <a href="#">Tietoja minusta</a>  </li>
+                    <li> <a href="#">Projekteja</a> </li>
+                    
+
+
+                </ul>
+                   
+                
+               
+                
+                
+               </div>
+               
+           
+             
+        </div>
+    
+
+   
+
+
 
 </nav>
 
@@ -48,8 +77,8 @@
 <img src="images/lehti6.png" width="115px"/>
 
 
-<div style="font-size: 30px; width: 500px">
-    Hei, olen Sanna. Tällä sivulla esittelen html sekä muita taitojani. Tervetuloa tutustumaan minuun ihmisenä ja it-osaajana.
+<div style="font-size: 30px; margin: 50px; text-align: center;">
+    Hei, olen Sanna. Tällä sivulla esittelen html sekä muita taitojani. <br> Tervetuloa tutustumaan minuun ihmisenä ja it-osaajana.
 </div>
 
 
@@ -58,5 +87,18 @@
      <p style="float: right; font-size: 10px;">@Copyright Sanna  </p>
 </footer>
 
-</body n>
+<script>
+ function nayta()
+ {
+     var click = document.getElementById("drop-content");
+
+     if(click.style.display ==="none")
+     {
+       click.style.display = "block";
+     }
+     else click.style.display = "none";
+ }
+</script>
+
+</body>
 </html>
