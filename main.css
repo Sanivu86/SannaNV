@@ -104,3 +104,8 @@ ul li a:hover
   padding: 0;
   font-size: 80px;
 }
+
+a:hover
+{
+    color: red;
+}
