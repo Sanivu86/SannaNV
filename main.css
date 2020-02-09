@@ -1,12 +1,13 @@
 
 body {
-    background-color: rgb(241, 176, 97);
+    background-color: rgb(150, 218, 250);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
 
 h1
 {
-    color: rgb(241, 69, 7);
+    color: black;
     display: block;
     text-align: center;
     margin-left: auto;
@@ -19,7 +20,7 @@ h1
 nav {
     width: 100%;
     height: 60px;
-    background-color: coral;
+    background-color: rgb(33, 175, 241);
 }
 
 .keskita {
@@ -45,7 +46,7 @@ nav {
 
 button:hover
 {
-    background-color: rgb(252, 112, 61);
+    background-color: rgb(22, 12, 156);
 }
 
 ul {
@@ -58,13 +59,13 @@ ul li {
    
     display: block;
     padding: 10px;
-    background-color: coral;
+    background-color: rgb(134, 206, 240);
 }
 
 ul li a
 {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
 
@@ -90,7 +91,7 @@ ul li a:hover
     padding: 0px;
     text-decoration: none;
     background: #dfdfdf;
-    font-size: 30px;
+    font-size: 25px;
     margin-right: 10px;
     text-align: center;
 }
@@ -111,16 +112,22 @@ a:hover
 {
     color: red;
 }
+a
+{
+    color: black;
+    text-decoration: none;
+}
 
 article
 {
     background-color: white;
     display: block;
-    float: left;
-    margin: 30px;
-    padding: 10px;
-    width: 40%;
-    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 20px;
+    width: 60%;
+    font-size: 25px;
 
 
 }
