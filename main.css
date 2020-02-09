@@ -111,3 +111,16 @@ a:hover
 {
     color: red;
 }
+
+article
+{
+    background-color: white;
+    display: block;
+    float: left;
+    margin: 30px;
+    padding: 10px;
+    width: 40%;
+    font-size: 20px;
+
+
+}
