@@ -71,7 +71,7 @@ ul li a
 }
 ul li a:hover
 {
-  color: red;
+  color:rgb(46, 34, 218);
 
 }
 
@@ -106,7 +106,7 @@ ul li a:hover
 
 a:hover
 {
-    color: red;
+    color:rgb(46, 34, 218);
 }
 a
 {
