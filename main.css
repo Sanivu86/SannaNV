@@ -150,10 +150,22 @@ footer
   .sidos
   {
       width: 100%;
-      max-height: 20%
+      max-height: 25%
   }
 
   @media only screen and (max-width: 700px)
+  {
+      .teksti
+      {
+        position: absolute;
+        top: 1%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+  }
+
+  
+  @media only screen and (max-width: 900px)
   {
       .teksti
       {
