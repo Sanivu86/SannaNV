@@ -153,15 +153,15 @@ footer
       max-height: 25%
   }
 
-
   @media only screen and (max-width: 1100px)
   {
-      .teksti
-      {
-        position: absolute;
-        top: 3%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 35px;
-      }
+      
+    .teksti
+    {
+      position: absolute;
+      top: 3%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 30px;
+    }
   }
