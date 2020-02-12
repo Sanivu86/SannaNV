@@ -158,9 +158,10 @@ footer
       .teksti
       {
         position: absolute;
-        top: 1%;
+        top: 3%;
         left: 50%;
         transform: translate(-50%, -50%);
+        font-size: 30px;
       }
   }
 
@@ -170,8 +171,9 @@ footer
       .teksti
       {
         position: absolute;
-        top: 1%;
+        top: 3%;
         left: 50%;
         transform: translate(-50%, -50%);
+        font-size: 30px;
       }
   }
