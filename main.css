@@ -160,6 +160,14 @@ footer
 
   }
 
+  .tekstiCV {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
   .sidos
   {
       width: 100%;
@@ -181,4 +189,14 @@ footer
       transform: translate(-50%, -50%);
       font-size: 35px;
     }
+
+    
+  .tekstiCV {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
   }
