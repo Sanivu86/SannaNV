@@ -160,13 +160,7 @@ footer
 
   }
 
-  .tekstiCV {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
-  }
 
   .sidos
   {
@@ -190,13 +184,20 @@ footer
       font-size: 35px;
     }
 
+    .headerCV {
+   
+        height: 300px;
+        width: 100%;
     
-  .tekstiCV {
-    position: absolute;
-    top: 8%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+      }
 
   }
 
+  .aloitusDiv
+  {
+    max-width: 600px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 20px;
   }
