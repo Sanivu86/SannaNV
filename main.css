@@ -43,6 +43,8 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+    text-align: left; 
 }
 
 .valikko 
@@ -200,7 +202,7 @@ footer
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
   .info
@@ -226,7 +228,7 @@ footer
   
     width: 87px;
     display: block;
-    margin-left: auto;
+    margin-left: 48%;
     margin-right: auto;
     margin-top: -70px;
   }
