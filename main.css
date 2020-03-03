@@ -196,9 +196,9 @@ footer
       .vasen
       {
         width: 300px;
-        display: block;
-        float: left; 
-        margin-left: 50px;
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 20px;
       }
     
@@ -206,8 +206,8 @@ footer
       {
         width: 300px;
         display: block;
-        float: right; 
-        margin-right: 50px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 20px;
       }
     
