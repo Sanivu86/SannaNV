@@ -217,6 +217,15 @@ footer
         margin-bottom: 20px;
       }
 
+      .logo
+      {
+      
+        width: 87px;
+        display: block;
+        margin-left: 40%;
+        margin-right: auto;
+        margin-top: -70px;
+      }
   }
 
   .aloitusDiv
