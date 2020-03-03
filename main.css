@@ -26,7 +26,11 @@ h1
     margin-right: auto;
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+}
+
+h3
+{
+  padding: 8px;
 }
 
 nav {
@@ -215,4 +219,56 @@ footer
   {
     width: 55px;
     padding: 15px 10px 0px 10px;
+  }
+
+  .logo
+  {
+  
+    width: 87px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+  }
+
+  .vasen
+  {
+    width: 300px;
+    display: block;
+    float: left;
+    margin-left: 50px;
+  }
+
+  .oikea
+  {
+    width: 300px;
+    display: block;
+    float: right;
+    margin-right: 50px;
+  }
+
+  .keski
+  {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  ol
+  {
+    margin-left: 20px;
+   
+  }
+
+  ol li
+  {
+    list-style: disc;
+    padding: 5px;
+  }
+
+  ol li p
+  {
+    padding: 5px;
+    font-size: 20px;
   }
