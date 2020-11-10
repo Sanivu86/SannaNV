@@ -41,7 +41,7 @@
             <ul>
 
                 <li> <a href="https://sanivu86.github.io/SannaNV/sanna">Kuka olen?</a> </li>
-                <li> <a href="https://sanivu86.github.io/SannaNV/tyo">Minä työntekijänä?</a> </li>
+                <li> <a href="https://sanivu86.github.io/SannaNV/tyo">Minä työntekijänä?</a> </li> 
                 <li> <a href="https://sanivu86.github.io/SannaNV/projektit">Projekteja</a> </li>
           
             </ul>
@@ -49,7 +49,11 @@
            </div>
    
     </div>
+
     <a href="home.html" style="float: right;"> <img src="images/englanninlippu.png" alt="Englannin lippu" class="lippu"></a>
+    <button id= 'puhenappi' class="nappi" style="float: right; margin-top: 3px; margin-right: 10px;"> 
+        <img src="images/TestiMegafoni.png" alt="esittelyteksti puheena" width="90%">
+    </button>
 
 </nav>
 
@@ -76,8 +80,22 @@
     <a href="https://www.linkedin.com/in/sanna-nieminen-vuorio/" target="_blank" style="font-size: 20px; color: black;">
         linkedin.com/in/sanna-nieminen-vuorio/
     </a>
+<br><br>
+
 
 </div>
+<script>
+puhenappi.addEventListener('click', ()=>
+{
+    var puhu = new SpeechSynthesisUtterance(); 
+    //puhu.voice = voice[10];
+    puhu.lang = 'id-ID';
+    puhu.text = "Pahoittelen, voit kuunnella esittelytekstin vain englanniksi. Pääset englanninkielisille sivuille englanninlipun kuvasta.";
+    window.speechSynthesis.speak(puhu);
+
+} )
+</script>
+
 
 <footer> 
      <p>@Copyright Sanna  </p>
