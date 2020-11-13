@@ -36,6 +36,9 @@
              
                 </div>
                 <a href="sanna.html" style="float: right;"><img src="images/suomenlippu.png" alt="Suomen lippu" class="lippu"> </a>
+                <button id= 'puhenappi' class="nappi" style="float: right; margin-top: 3px; margin-right: 10px;"> 
+                    <img src="images/TestiMegafoni.png" alt="esittelyteksti puheena" width="90%">
+                </button>
         </nav>
         <a href="https://sanivu86.github.io/SannaNV/home"><img src="images/logo.png" alt="Logo" class="logo"></a>
 
@@ -51,12 +54,12 @@
    <br>
    <br>
  
-I started coding in summer 2019, with C++. I learned the basics from great a Youtube-video. 
+I started coding in summer 2019, with C++. I learned the basics from a great Youtube-video. 
 <a href="https://www.youtube.com/watch?v=vLnPwxZdW4Y&list=LLa7TwVlHiWP4emxvzyJoD6A&index=52&t=314s" target="_blanck"> (Follow this link to watch the video) </a> 
 <br>
-After I started my studies in Hamk I have also learned C#. At the moment we are learning HTML and PHP.
+After I started my studies in Hamk I have also learned C#. At the moment we are learning to use Robot framework with Python.
 Besides programming languages, I have learned more about Word, Powerpoint and Excel. I have also got familiar with meeting-tools like Zoom and Teams.
-During my long career at Valio, I have learned to get along with different people. At school I have had opportunity to improve my people skills in different kind of projects.
+During my long career at Valio, I have learned to get along with different kind of people. At school I have had opportunity to improve my people skills in different kind of projects.
 <br>
 <br>
 As an employee I'm self-imposed, helpful, kind, flexible and I have high work ethic. Sometimes I have a bad habit to make my own rules, 
@@ -65,7 +68,7 @@ but sometimes my rules are harder than others.
 <br>
 <br>
 Along with school and work, special things in my life are my husband, family, friends and our cat Monni.
-At my spare time, I like to do yoga, swim, play discgolf and go for a walk. 
+At my spare time, I like to do yoga, practice Krav maga, swim, play discgolf and go for a walk. 
 As you may noticed in the front page, I like to be upside down and goof off.  
 <br>
 <br>
@@ -79,6 +82,17 @@ View my other skills <a href="work.html" style="text-decoration: underline;"> he
         <video src="images/sannajooga.mp4" controls alt="jooga-video" width="300px" style="margin: 30px;"> Frisbeegolf-video </video>
 
     </article>
+    <script>
+        puhenappi.addEventListener('click', ()=>
+        {
+            var puhu = new SpeechSynthesisUtterance(); 
+            //puhu.voice = voice[10];
+            puhu.lang = 'en';
+            puhu.text = "Hi, my name is Sanna. I'm 33 years old Information Technology student from Hamk. First time I got interested of coding was when I transfered to Valio's new factory in 2017. I participated to a project where we started a new packingline. I started coding in summer 2019, with C++. I learned the basics from a great Youtube-video. After I started my studies in Hamk I have also learned C#. At the moment we are learning to use Robot framework with Python. Besides programming languages, I have learned more about Word, Powerpoint and Excel. I have also got familiar with meeting-tools like Zoom and Teams. During my long career at Valio, I have learned to get along with different kind of people. At school I have had opportunity to improve my people skills in different kind of projects. As an employee I'm self-imposed, helpful, kind, flexible and I have high work ethic. Sometimes I have a bad habit to make my own rules, but sometimes my rules are harder than others. Along with school and work, special things in my life are my husband, family, friends and our cat Monni. At my spare time, I like to do yoga, practice Krav maga, swim, play discgolf and go for a walk. ";
+            window.speechSynthesis.speak(puhu);
+        
+        } )
+        </script>
    
 </body>
 
