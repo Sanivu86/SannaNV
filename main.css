@@ -121,7 +121,8 @@ a
 
 article
 {
-    background-color: whitesmoke;
+    background-color: black;
+    color: coral;
     display: block;
     margin-left: auto;
     margin-right: auto;
