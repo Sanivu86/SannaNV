@@ -7,7 +7,5 @@ $(document).ready(function()
       {
          event.preventDefault();
          console.log('Nappia painettu');
-     })
-
-    
+     })   
 })
