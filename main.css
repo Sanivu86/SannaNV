@@ -238,6 +238,11 @@ footer
         margin-right: auto;
         margin-top: -70px;
       }
+
+      .column {
+        width: 100%;
+      }
+
   }
 
   .aloitusDiv
@@ -391,4 +396,9 @@ footer
 .container {
   position: relative;
   color: white;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
 }
