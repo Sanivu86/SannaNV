@@ -273,7 +273,7 @@ footer
   
     width: 87px;
     display: block;
-    margin-left: 46%;
+    margin-left: 45%;
     margin-right: auto;
     margin-top: -70px;
   }
@@ -386,3 +386,9 @@ footer
     background-color: rgb(33, 175, 241); 
     border-radius: 5px;
   } 
+
+
+.container {
+  position: relative;
+  color: white;
+}
